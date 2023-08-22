@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+  }
+  
+body{
+    background: #f7f5f5;
+    border: 1px ridge green;
+  }
+
+
+.proceedings-wrapper{
+    padding: 2%;
+    margin:2% 3% 1%;
+    /* font-size: 1.5em; */
+    /* text-align: center; */
+    /* height: 80vh; */
+}  
+
+#header{
+    margin: 0.5% 0.5%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+  }
+  #wca_logo{
+    width: 7%;
+  }
+
+  /* h1{
+    display: inline-block;
+    width: 70%;
+    padding-left: 2%;
+  } */
+  #nav{
+    padding: 0 2%;
+    /* display: inline-block; */
+    float: right;
+    width: 60%;
+    margin-right: 2.7%;
+    /* font: weight 700px; */
+  }
+  
+  .dropdown{
+    display: flex;
+    justify-content:flex-end;
+    column-gap:2.5%;
+    position: relative;
+  }
+  
+  .dropdownbtn{
+    list-style-type: none !important;
+    font-size: 1.1em;
+  }
+  
+  .dropdownbtn a:link{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown a:visited{
+    color: black;
+  }
+  
+  .dropdownbtn a:hover{
+    background-color: rgb(212, 206, 206);
+  }
+  
+  .dropdown-content{
+    display: none;
+    z-index: 7;
+    position: absolute;
+    border: 1px solid rgb(222,222,222);
+  }
+  
+  .dropdown-content a{
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+    padding: 2% 4%;
+    width: 100%;
+  }
+  
+  .dropdown-content a:link{
+    color: black;
+  }
+  
+  /* .dropdown-content a:active{
+    background-color: aqua;
+  } */
+  
+  .dropdownbtn:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+  }
+  
+.proceedings-wrapper ul{
+    padding: 2%;;
+
+}
+.proceedings-wrapper li{
+    list-style-type: square;
+    /* text-align: center; */
+}
+
+#contactus{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-menu{
+    display: flex;
+    column-gap: 1%;
+    justify-content: center;
+    padding: 1% 0;
+  }
+  .footer-menu-content{
+    list-style-type:none !important;
+  }
+  
+  .footer-menu-content a{
+    color: rgb(165, 243, 241);
+    text-decoration: none;
+  
+  }
