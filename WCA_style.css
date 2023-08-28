@@ -13,7 +13,6 @@ body{
 }
 
 .wrapper{
-  /* padding: 2% 2% 0 2%; */
   margin:2% 5% 0.4%;
   background-color: white;
 }
@@ -21,7 +20,6 @@ body{
 #header{
   margin: 0.5% 0.5%;
   padding-top: 2%;
-  /* border: 1px solid red; */
   border-radius: 10px;
 }
 
@@ -30,11 +28,9 @@ body{
 }
 #nav{
   padding: 0 2%;
-  /* display: inline-block; */
   float: right;
   width: 60%;
   margin-right: 2.7%;
-  /* font: weight 700px; */
 }
 
 .dropdown{
@@ -80,10 +76,6 @@ body{
   color: black;
 }
 
-/* .dropdown-content a:active{
-  background-color: aqua;
-} */
-
 .dropdownbtn:hover .dropdown-content{
   display: flex;
   flex-direction: column;
@@ -107,7 +99,6 @@ body{
   padding-bottom: 0;
   background-color: black;
   color: white;
-  /* position: relative; */
   text-align: center;
 }
 
@@ -122,9 +113,4 @@ body{
 .footer-menu-content a{
   color: rgb(165, 243, 241);
   text-decoration: none;
-
 }
-
-/* .footer-menu-content a:visited{
-  color: white;
-} */
