@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-[Western Casewriters Association](https://imgur.com/a/YGuSyvs)
+[Western Casewriters Association](https://www.westerncasewriters.org)
 
 **Western Casewriters Association** (WCA) is the Western regional association of business casewriters. Its purpose is to train, develop and support business case writing for research and pedagogical purposes.
 
